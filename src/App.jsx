@@ -22,9 +22,9 @@ const key = import.meta.env.VITE_OPENROUTER_API_KEY;
 function About() {
   return (
     <Box pt={15} pb={10} textAlign="center" maxW="3xl" mx="auto">
-      <Heading as="h1" size="2xl" mb={4} color={useColorModeValue('gray.800', 'white')}>About TLDR.ai</Heading>
+      <Heading as="h1" size="2xl" mb={4} color={useColorModeValue('gray.800', 'white')}>About Text-api</Heading>
       <Text fontSize="lg" color={useColorModeValue('gray.500', 'gray.300')} mb={8}>
-        <b>TLDR.ai</b> is a modern, AI-powered text summarization tool. Effortlessly condense long articles, blogs, research papers, or documents into concise, easy-to-read summaries. Whether you paste text or upload files, TLDR.ai helps you save time and focus on what matters most.
+        <b>Text-api</b> is a modern, AI-powered text summarization tool. Effortlessly condense long articles, blogs, research papers, or documents into concise, easy-to-read summaries. Whether you paste text or upload files, Text-api helps you save time and focus on what matters most.
       </Text>
       <Box textAlign="left" bg={useColorModeValue('brand.50', 'brand.700')} borderRadius="lg" p={6} mb={6} boxShadow="md">
         <Heading as="h2" size="md" mb={3} color={useColorModeValue('gray.700', 'gray.200')}>Key Features</Heading>
@@ -363,13 +363,11 @@ function Footer() {
   return (
     <Box as="footer" mt={8} py={3} textAlign="center">
       <Stack direction="row" spacing={6} justify="center" mb={2}>
-        <IconButton as="a" href="https://twitter.com/iamamanchhetri" target="_blank" rel="noopener noreferrer" aria-label="Twitter" icon={<FaTwitter />} size="lg" variant="ghost" color={useColorModeValue('gray.800', 'gray.100')} _hover={{ color: 'gray.600' }} />
-        <IconButton as="a" href="https://github.com/aman-chhetri" target="_blank" rel="noopener noreferrer" aria-label="GitHub" icon={<FaGithub />} size="lg" variant="ghost" color={useColorModeValue('gray.800', 'gray.100')} _hover={{ color: 'gray.600' }} />
-        <IconButton as="a" href="https://linkedin.com/in/amankshetri" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" icon={<FaLinkedin />} size="lg" variant="ghost" color={useColorModeValue('gray.800', 'gray.100')} _hover={{ color: 'gray.600' }} />
-        <IconButton as="a" href="https://amankshetri.com.np/" target="_blank" rel="noopener noreferrer" aria-label="Link" icon={<FaChrome />} size="lg" variant="ghost" color={useColorModeValue('gray.800', 'gray.100')} _hover={{ color: 'gray.600' }} />
+        
+        
       </Stack>
       <Text fontSize="sm" color={useColorModeValue('gray.600', 'gray.400')} mt={2}>
-        Built with <span style={{ color: '#e94560', fontWeight: 700 }}>&hearts;</span> by Aman
+        Built with <span style={{ color: '#e94560', fontWeight: 700 }}>&hearts;</span> by Tushar
       </Text>
     </Box>
   );
