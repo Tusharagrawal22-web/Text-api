@@ -20,7 +20,7 @@ To see a Demo Video: [Click here!](https://drive.google.com/file/d/14E3znpa1STYy
 #### 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/text-summarizer.git
+git clone (https://github.com/Tusharagrawal22-web/Text-api.git)
 cd text-summarizer
 ```
 
